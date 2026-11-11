@@ -1,0 +1,1 @@
+El proyecto trata de desarrollarse una aplicación que, utilizando la estructura Modelo-Vista-Controlador y la tecnología JDBC, realice consultas y modificaciones de relativa complejidad en una base de datos simple en MySQL; se ha planteado una miniwiki de la mitología griega, que abarque los principales personajes, lugares y sucesos especificamente de la Ilíada y Odisea.
