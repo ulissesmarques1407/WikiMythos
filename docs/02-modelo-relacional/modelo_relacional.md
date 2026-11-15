@@ -86,7 +86,7 @@ Todas las tablas usan utf8mb4, porque hay texto en griego. Los nombres van en mi
 | titulo | VARCHAR(100) | |
 | canto | TINYINT UNSIGNED | Entre 1 y 24 |
 | descripcion | TEXT | Puede ser nulo |
-| tipo | ENUM('combate', 'asamblea', 'viaje', 'sacrificio', 'otro') | |
+| tipo | ENUM con 14 valores: asamblea, combate, duelo, intervencion_divina, suplica, engano, viaje, naufragio, reconocimiento, banquete, funeral, sacrificio, profecia, otro  |
 | id_obra | INT UNSIGNED | FK a obra. No se puede borrar una obra que tiene eventos |
 | id_region | INT UNSIGNED | FK a region, puede ser nulo |
 
